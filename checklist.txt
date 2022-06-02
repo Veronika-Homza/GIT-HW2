@@ -6,37 +6,38 @@ Tester 			Veronika Homza
 
     
 	 	
-N			Check								Expected result							Result		Link                                                                                   
+N	Check								Expected result					Result			Link                                                                                   
 	
 Installation testing	
 
-1			Install the app							The app is installed						Passed								
-2			Uninstall the app						The app is uninstalled						Passed
-3			Reinstall the app						The app is reinstalled						Passed
+1	Install the app							The app is installed				Passed				
+2	Uninstall the app						The app is uninstalled				Passed
+3	Reinstall the app						The app is reinstalled				Passed
 					
 Сhecking the main functions of the app
 
-4			Open the app							The app opens							Passed
-5			Allow the app to access photos, media and files on device		Message "Permission was granted, thank you"			Passed		
-6			Сollapse/expand the app						The app collapses and expands					Passed
-7			Click on the button "Add widget"					Adding widget to home screen in two ways				Passed
-8			Add widget automatically						Widget is added automatically					Passed
-9			Add widget manually						Widget is added by user						Passed
-10			Make a long tap on widget						Sliders appear on the widget borders				Passed
-11			Click on the button "Save data" twice				Message "Data was successfully saved"				Passed					
-12			Click on the button "Send email" 					Can be shared by email						Passed									
-13			Attach file							Сan attach file							Passed
-14			Send email							Message is sent							Passed
-15			Delete widget							Widget is deleted						Passed
-16			Click on the button "Clear data" 					Message "Data was successfully deleted"				Passed
-17 			Click on the button "Clear data" again				Message "Data does not exist"					Passed																
-
+4	Open the app							The app opens					Passed
+5	Allow the app to access photos, media and files on device	Message "Permission was granted, thank you"	Passed		
+6	Сollapse/expand the app						The app collapses and expands			Passed
+7	Click on the button "Add widget"				Adding widget to home screen in two ways	Passed
+8	Add widget automatically					Widget is added automatically			Passed
+9	Add widget manually						Widget is added by user				Passed
+10	Make a long tap on widget					Sliders appear on the widget borders		Passed
+11	Click on the button "Save data" twice				Message "Data was successfully saved"		Passed				
+12	Click on the button "Send email" 				Can be shared by email				Passed				
+13	Attach file							Сan attach file					Passed
+14	Send email							Message is sent					Passed
+15	Delete widget							Widget is deleted				Passed
+16	Click on the button "Clear data" 				Message "Data was successfully deleted"		Passed
+17 	Click on the button "Clear data" again				Message "Data does not exist"			Passed																
 Useability testing
 
-18			Check inactive items 						Inactive items are displayed in gray				Passed
-19			Check buttons sizes						Buttons sizes are the same					Failed		Bug_id 1
-20			Сheck text alignment in different display settings			All texts are properly aligned in different display settings	Failed		Bug_id 7
+18	Check inactive items 						Inactive items are displayed in gray		Passed
+19	Check buttons sizes						Buttons sizes are the same			Failed		Bug_id 1
+20	Сheck text alignment in different display settings		All texts are properly aligned in different 	Failed		Bug_id 7
+									display settings						
 
 Localization testing
 
-21			Check language of the elements in the app				All elements are translated into the appropriate language		Passed
+21	Check language of the elements in the app			All elements are translated into 
+									the appropriate language 			Passed
