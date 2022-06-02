@@ -23,7 +23,7 @@ Installation testing
 8	Add widget automatically					Widget is added automatically			Passed
 9	Add widget manually						Widget is added by user				Passed
 10	Make a long tap on widget					Sliders appear on the widget borders		Passed
-11	Click on the button "Save data" twice				Message "Data was successfully saved"		Passed
+11	Click on the button "Save data" twice				Message "Data was successfully saved"		Passed				
 12	Click on the button "Send email" 				Can be shared by email				Passed				
 13	Attach file							Сan attach file					Passed
 14	Send email							Message is sent					Passed
@@ -41,3 +41,12 @@ Localization testing
 
 21	Check language of the elements in the app			All elements are translated into 
 									the appropriate language			Passed
+
+20	Сheck text alignment in different display settings		All texts are properly aligned in different 	Failed		Bug_id 7
+									display settings						
+
+Localization testing
+
+21	Check language of the elements in the app			All elements are translated into 
+									the appropriate language 			Passed
+
