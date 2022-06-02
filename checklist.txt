@@ -3,11 +3,11 @@ Environment		Android 10
 Build			QKQ1.190910.002 V11.0.28.0.QDIMIXM	     		
 Test date 		24.05.22	    	
 Tester 			Veronika Homza
-
-    
-	 	
-N	Check								Expected result					Result			Link                                                                                   
 	
+	
+	
+N	Check								Expected result					Result		Link        
+
 Installation testing	
 
 1	Install the app							The app is installed				Passed				
@@ -29,12 +29,19 @@ Installation testing
 14	Send email							Message is sent					Passed
 15	Delete widget							Widget is deleted				Passed
 16	Click on the button "Clear data" 				Message "Data was successfully deleted"		Passed
-17 	Click on the button "Clear data" again				Message "Data does not exist"			Passed	
+17 	Click on the button "Clear data" again				Message "Data does not exist"			Passed			
 
 Useability testing
 
 18	Check inactive items 						Inactive items are displayed in gray		Passed
 19	Check buttons sizes						Buttons sizes are the same			Failed		Bug_id 1
+20	Сheck text alignment in different display settings		All texts are properly aligned in different 	Failed		Failed
+									display settings						
+Localization testing
+
+21	Check language of the elements in the app			All elements are translated into 
+									the appropriate language			Passed
+
 20	Сheck text alignment in different display settings		All texts are properly aligned in different 	Failed		Bug_id 7
 									display settings						
 
@@ -42,3 +49,4 @@ Localization testing
 
 21	Check language of the elements in the app			All elements are translated into 
 									the appropriate language 			Passed
+
